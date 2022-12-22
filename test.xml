@@ -8,9 +8,7 @@
 <Creative>
 <Linear>
 <Duration>00:05:00</Duration>
-<AdParameters>
-{"video_id":"kWZ0KwsNVD0","skipTime":"10","dit":"1","externalSkipTime":"10","embed_url":"https:\/\/www.google.com\/url?sa=D&q=https:\/\/www.youtube.com\/embed\/kWZ0KwsNVD0%3Fenablejsapi%3D1%26origin%3D*%26playsinline%3D1","buttonText":{"skipTime":"Skip Ad In {timer}","skipText":"Skip"}}
-</AdParameters>
+<AdParameters>{"video_id":"kWZ0KwsNVD0","skipTime":"10","dit":"1","externalSkipTime":"10","embed_url":"https:\/\/www.google.com\/url?sa=D&q=https:\/\/www.youtube.com\/embed\/kWZ0KwsNVD0%3Fenablejsapi%3D1%26origin%3D*%26playsinline%3D1","buttonText":{"skipTime":"Skip Ad In {timer}","skipText":"Skip"}}</AdParameters>
 <MediaFiles>
 <MediaFile apiFramework="VPAID" type="application/javascript">
 https://script.vast.wtf/vast-service/vpaid-stream.js
