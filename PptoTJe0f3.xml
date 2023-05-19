@@ -1,17 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <VAST version="3.0">
-  <Ad id="ad">
+  <Ad id="1">
     <InLine>
-      <AdSystem><![CDATA[Ad]]></AdSystem>
-      <AdTitle><![CDATA[VPAID]]></AdTitle>
+      <AdSystem>OpenAI</AdSystem>
+      <AdTitle>VAST Tag with VPAID Stream</AdTitle>
+      <Impression><![CDATA[https://impression-url.com]]></Impression>
       <Creatives>
         <Creative>
           <Linear>
-            <Duration>00:05:00</Duration>
-            <AdParameters><![CDATA[{"video_id":"fTdGVCLjxyo","skipTime":"10","dit":"1","externalSkipTime":"10","embed_url":"https:\/\/www.google.com\/url?sa=D&q=https:\/\/www.youtube.com\/embed\/fTdGVCLjxyo%3Fenablejsapi%3D1%26origin%3D*%26playsinline%3D1","buttonText":{"skipTime":"Skip Ad In {timer}","skipText":"Skip"}}]]></AdParameters>
+            <Duration>00:00:10</Duration>
             <MediaFiles>
-              <MediaFile apiFramework="VPAID" type="application/javascript"><![CDATA[https://script.vast.wtf/vast-service/vpaid-stream.js]]></MediaFile>
+              <MediaFile delivery="streaming" type="application/javascript" apiFramework="VPAID" width="640" height="480">
+                <![CDATA[https://script.vast.wtf/vast-service/vpaid-stream.js]]>
+              </MediaFile>
             </MediaFiles>
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://clickthrough-url.com]]></ClickThrough>
+            </VideoClicks>
           </Linear>
         </Creative>
       </Creatives>
